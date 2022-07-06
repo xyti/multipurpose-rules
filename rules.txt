@@ -1,0 +1,151 @@
+! Title: Multipurpose Rules, rules to block ads and protect your privacy and security
+! Homepage: https://github.com/xyti/multipurpose-rules
+! Author: xyti | https://github.com/xyti
+! Description: Rules to block ads and protect your privacy and security
+! Contact: xyti.dev [at] proton.me
+
+! Rules contributed by xyti
+! https://github.com/xyti
+
+! Ads
+||ad.buzzvil.com^
+||adsrvr.org^
+||cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png$image
+##a[href="https://smallseotools.com/mazak_ae.html"]
+bitcointalk.org##div.eAyyxadTIliJxtQzfZSJZg
+gadgets.ndtv.com##iframe#jsw-iframe
+||omnicoreagency.com/wp-content/uploads/2017/11/Digital-Ladder.jpg$image
+||stellarinfo.com/blog/wp-content/uploads/2020/06/Pro.jpg$image
+usnews.com##.bjZOxM.iOBzTK.StickyPromo__ContentBox-zb409o-4.Box-w0dun1-0
+quizlet.com##.StickyAdz
+! ||hk3-bid.adsrvr.org^
+
+! Analytics
+_comscore.
+||adobedtm.com^$3p,domain=~adobe.com
+||demdex.net^
+||omtrdc.net^
+||everesttech.net^
+||scorecardresearch.com^
+||e-corp-usa.com/pageview_candidate.html$xmlhttprequest
+
+! Google
+||googletagmanager.com^
+||google-analytics.com^
+||googleadservices.com
+/google_tag_manager_component
+||googlesyndication.com^
+||doubleclick.net^
+/viewerImpressions
+/logImpressions
+/naLogImpressions
+||google.com/maps/preview/log204
+||google.*/gen204
+||google.*/gen_204
+||google.*/ads
+||google.*/pagead
+||adservice.google.*
+||accounts.google.com$3p
+||chrome.google.com/webstore/ajax/eventlog$xmlhttprequest
+||chrome.google.com/webstore/ajax/logreferrerchain/$xmlhttprequest
+||scone-pa.clients6.google.com/*/survey/$xmlhttprequest
+! ||www.googletagmanager.com^
+! ||www.google-analytics.com^
+! ||www.googletagmanager.com/gtm.js^
+! ||ssl.google-analytics.com^
+! ||ssl.google-analytics.com/ga.js^
+! /google_tag_manager_component/
+! /google_tag_manager_component.js
+! /google_tag_manager_component/google_tag_manager_component.js^
+! ||pagead2.googlesyndication.com^
+! ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^\
+! ||securepubads.g.doubleclick.net^
+! ||securepubads.g.doubleclick.net/tag/js/gpt.js^
+! /document/d/*/naLogImpressions^
+! ||docs.google.com/document/d/*/naLogImpressions^
+! /spreadsheets/d/*/naLogImpressions^
+! ||docs.google.com/spreadsheets/d/*/naLogImpressions^
+! /presentation/d/*/naLogImpressions^
+! ||docs.google.com/presentation/d/*/naLogImpressions^
+! ||google.com/*/d/*/analytics/
+! /document/d/*/analytics/appbarviewstatus^
+! ||docs.google.com/document/d/*/analytics/appbarviewstatus^
+! /spreadsheets/d/*/analytics/appbarviewstatus^
+! ||docs.google.com/spreadsheets/d/*/analytics/appbarviewstatus^
+! /presentation/d/*/analytics/appbarviewstatus^
+! ||docs.google.com/presentation/d/*/analytics/appbarviewstatus^
+
+! Facebook
+||connect.facebook.net^
+||facebook.com/tr
+||facebook.com/ajax/bz
+||facebook.com/logging/
+||graph.facebook.com^
+||facebook.com/plugins/likebox.php
+! ||connect.facebook.net/en_US/fbevents.js^
+! ||connect.facebook.net/en_US/all.js^
+! ||www.facebook.com/tr^
+
+! Instagram
+||graph.instagram.com^
+||instagram.com/ajax/bz
+||instagram.com/logging/
+! ||www.instagram.com/ajax/bz^
+! ||www.instagram.com/logging/falco^
+! ||graph.instagram.com/logging_client_events^
+
+! WhatsApp
+||privatestats.whatsapp.net^
+||graph.whatsapp.net^
+||crashlogs.whatsapp.net^
+||graph.whatsapp.com^
+||whatsapp.com/ajax/bz
+||whatsapp.com/logging/
+
+! Twitter
+||ads-twitter.com^
+||analytics.twitter.com^
+||syndication.twitter.com^
+||t.co/i/adsct
+
+! Tiktok
+||analytics.tiktok.com
+
+! Cloudflare
+/cdn-cgi/bm/cv/669835187/api.js
+
+! Wikipedia
+||wikipedia.org/beacon/
+
+! Github
+||collector.githubapp.com^
+||api.github.com/_private/browser/stats
+
+! Amazon
+||amazon-adsystem.com^
+||analyticsengine.s3.amazonaws.com^
+||affiliationjs.s3.amazonaws.com^
+||advertising-api-eu.amazon.com^
+||amazonclix.com^
+
+! Alibaba
+||lbsapp.cn.goolink.org^
+
+! JW Player
+||jwpltx.com^*/ping.gif
+
+! Fingerprinting
+/fingerprint.js
+/fingerprint.min.js
+/fingerprint2.js
+/fingerprint2.min.js
+/fingerprint3.js
+/fingerprint3.min.js
+/fingerprintjs2.
+/fp.min.js
+/fp.umd.min.js
+/picasso_canvas.js
+/fpCollect.js
+/fpScanner.js
+! ||cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js^
+! ||cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.umd.min.js^
